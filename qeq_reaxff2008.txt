@@ -1,3 +1,15 @@
+#
+# Reaxff: qeq.txt
+#
+# Charge parameters for the QEq and QTPIE methods
+# Used by QEqCharges and QTPIECharges, which are daughters of OBChargeModel
+#
+# Parameters:
+#
+#   Elt: Element symbol
+#   Eneg: Atomic electronegativity (Volts)
+#   Hard: Atomic (chemical) hardness (Volts/e)
+#   Radius: screening radius (Angstrom)
 # Elt   Eneg    Hard    Radius
 H 5.3200 7.4366 0.7853
 C 5.8678 7.0000 1.3825

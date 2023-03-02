@@ -78,7 +78,7 @@ def compute_Qeq_charges(atoms,atomElments,total_charge,charge_past):
     J = np.zeros((nAtoms+1,nAtoms+1)) # hardness
     Voltage = charge_past
     BasisSet = np.zeros(nAtoms)
-    parameters = get_parameters("qeq.txt")
+    parameters = get_parameters("qeq_reaxff2016.txt")
     #atomElements = get_elements("./atom.xyz")
     for i in range(nAtoms):
         atomType = atoms[i][3]
