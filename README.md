@@ -1,6 +1,7 @@
 # pyqeq
 a simple implementation of Qeq with python
-Qeq charge in different method and parameters
+## Qeq charge in different method and parameters
+
 |             | openbabel   | ReaxFF2008  | ReaxFF2016  |
 | ----------- | ----------- |-------------|-------------|
 |C            |  3.74948417 | -0.19207886 | -0.12950447 |
